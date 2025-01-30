@@ -11,7 +11,7 @@ function Header() {
     <div className='flex justify-between    p-5 border-b-2 '>
         <div >  
           <Link to={'/'}>
-          <h1  className='text-2xl   sm:text-3xl font-bold   text-blue-600'>Cuthbert.Dev</h1>           
+          <h1  className='text-xl   sm:text-3xl font-bold   text-blue-600'>Cuthbert.Dev</h1>           
 
           
           </Link>
