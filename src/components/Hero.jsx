@@ -3,7 +3,7 @@ import Search from './Search';
 
 function Hero() {
   return (
-    <div  className= 'flex flex-col sm:items-center bg-blue-50  h-[80vh] md:h-[58vh] lg:h-[70vh] xl:h-[80vh] w-full    '  >
+    <div  className= 'flex flex-col sm:items-center bg-blue-50  h-[80vh] md:h-[58vh] lg:h-[50vh] xl:h-[80vh] w-full    '  >
 
         
         <div    className='p-6'>
@@ -18,7 +18,7 @@ function Hero() {
             <Search/>
         </div>
 
-        <div className='sm:w-[50vw] md:w-[80vw] lg:w-[50vw] xl:w-[50vw] h-[30vh]  '>
+        <div className='sm:w-[50vw] md:w-[80vw] lg:w-[80vw] xl:w-[50vw] h-[30vh]  '>
 
             <img src="/Land2.png" alt="CarImage" />
 
