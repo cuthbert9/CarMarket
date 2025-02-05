@@ -8,7 +8,7 @@ function Caterories() {
     <div className="flex   flex-col items-center    justify-center mt-40">
       <h1 className="text-3xl font-semibold mb-6">Browse By Type</h1>
 
-      <div className="flex w-[90vw] overflow-scroll sm:overflow-hidden md:overflow-scroll ">
+      <div className="flex w-[90vw] overflow-scroll sm:overflow-hidden md:overflow-scroll lg:overflow-hidden ">
         {Data.carCategories?.map((item, index) => (
           
           <Link to={`CategorySearch/${item.category}`}>
