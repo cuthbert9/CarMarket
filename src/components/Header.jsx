@@ -9,9 +9,9 @@ function Header() {
   const {isSignedIn}=useUser();
   return (
     <div className='flex justify-between    p-5 border-b-2 '>
-        <div >  
+        <div  className={'my-auto'}>
           <Link to={'/'}>
-          <h1  className='text-xl   sm:text-3xl font-bold   text-blue-600'>Cuthbert.Dev</h1>           
+          <h1  className='text-lg sm:text-3xl  font-bold   text-blue-600'>Cuthbert.Dev</h1>
 
           
           </Link>
@@ -22,13 +22,13 @@ function Header() {
             <h1 className='hover:scale-105 text-primary duration-500'>New</h1>
             <h1 className='hover:scale-105 text-primary duration-500'>Used</h1>
         </div>
-        <div className='flex'>
+        <div className='flex '>
         <SignInButton mode='modal'>
           {isSignedIn?(
               <UserButton/>
 
           ):(
-            <Button className="mt-3">
+            <Button className="mt-3 ">
             Sign In
         </Button>
 
@@ -39,7 +39,7 @@ function Header() {
         </SignInButton>
             
             <Link to={'/Profile'}>
-                <button className='bg-green-600 text-white m-2 p-2 rounded-lg'>Submit Listing</button>
+                <button className='bg-green-600 text-white m-2 sm:text-sm md:text-lg p-2 rounded-lg'>Submit Listing</button>
 
             </Link>
         

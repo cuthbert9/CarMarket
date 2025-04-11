@@ -42,7 +42,7 @@ const fetchMostSearched=async()=>{
         <Carousel >
           <CarouselContent className="w-[80vw] sm:w-[90vw]">
             {mostSearchedList?.map(Car => (
-              <CarouselItem className="basis-1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3 xl:basis-1/4 2xl:basis-1/5 ">
+              <CarouselItem className="basis-1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/4 xl:basis-1/4 2xl:basis-1/5 ">
                 <CarItem key={Car.id} car={Car} />
               </CarouselItem>
             ))}
