@@ -14,20 +14,6 @@ function Inbox() {
   const {user}=useUser();
  const userID=user?.primaryEmailAddress?.emailAddress.split('@')[0];
 
-
-//  console.log(userIdi);
-
-
-  // useEffect(()=>{
-  //     if(user){
-  //       const id=user?.primaryEmailAddress?.emailAddress.split('@')[0];
-  //       setUserID(id);
-  //       console.log(userID);
-  //     }
-  // },[user])
-
-
-
   return (
     <div className='h-[100vh] '>    
 
