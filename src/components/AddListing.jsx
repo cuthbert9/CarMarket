@@ -22,30 +22,6 @@ import Services from "@/Datas/Services";
 
 
 function AddListing() {
-
-  // const formDat = {
-  //   carName: "Toyota Camry",
-  //   category: "Sedan",
-  //   condition: "Used",
-  //   price: 20000,
-  //   year: 2019,
-  //   mileage: 35000,
-  //   fuelType: "Petrol",
-  //   transmission: "Automatic",
-  //   doors: "4",
-  //   color: "Silver",
-  //   vinNumber: "1HGCM82633A123456",
-  //   registrationNumber: "XYZ-1234",
-  //   ownerName: "John Doe",
-  //   ownerContact: "555-1234",
-  //   serviceHistory: "Full",
-  //   insuranceExpiry: "2025-05-10",
-  //   warranty: "No",
-  //   location: "Los Angeles, CA",
-  //   dateListed: "2024-10-01",
-  //   additionalFeatures: "Sunroof, Leather Seats, Bluetooth"
-  // };
-  
  
 
   const [formData, setFormData] = useState([]);
