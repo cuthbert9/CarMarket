@@ -59,7 +59,7 @@ function AddListing() {
   setEditImages(response[0].images);
         
   }
-  // console.log(carDefault);
+
   
 
   useEffect(()=>{
